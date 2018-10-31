@@ -25,7 +25,6 @@ Python 都是引用类型，只不过有些是可变类型，有些是不可变�
 
 5.你觉得 Web 应用中数据库链接的生命周期多长比较合适
 
-6. nonlocal, global, locals, globals 什么意思 
 
 简单语法：
 列表生成式是什么？
@@ -50,4 +49,30 @@ Python 类方法的本质是什么，绑定是什么意思
 
 
 你的职位是运维开发，求值意向是 Python 开发工程师，为什么
+
+
+
+# 内置函数
+
+1. 怎么对列表的各个元素求和，考虑int, str, list 以及 str, int 混合的情况。
+
+    sum([f(i) for i in list], 0/''/[]) 
+
+2. 怎么把 str 打印到标准错误。
+
+    print(str, file=sys.stderr)
+
+3. enumerate  /ɪ'numəret/  函数有什么用
+
+4. * 怎么安全使用 eval
+    
+    without double underline
+
+5. * globals, global, locals, nonlocal
+
+6. repr  /'rɛprɪzɛn'teʃən/  和 str 的区别是什么
+
+# 风格题
+
+1. 如何格式化字符串，f-string 是什么
 
