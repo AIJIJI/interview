@@ -30,3 +30,7 @@
 3. ViewSet 的 filter_backends 字段是做什么的
 
     A list of filter backend classes that should be used for filtering the queryset. Defaults to the same value as the DEFAULT_FILTER_BACKENDS setting.
+
+4. 如何给 list 方法对应的 path 增加 method 
+
+    修改 Routes 的 Mapping
