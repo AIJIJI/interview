@@ -16,7 +16,6 @@
 
     other_app.model_cls
 
-
 # REST Framework
 
 1. Serializer 有哪些确定 fields 的方式
